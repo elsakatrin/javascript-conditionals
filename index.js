@@ -1,7 +1,8 @@
 console.log("hello"); //Put this here at first to see if it was linked correctly
-
+//Project: Javascript conditionals
 
 //Here are the randomized data I got from the guides
+//Made objects into array
 let people = [
     {
     "name": "Kimberly Hallawell",
@@ -101,7 +102,8 @@ switch (corrina.country) {
 
 
 //Find out if the persons name is longer than 5 characters
-corrina 
-let answer = corrina.name.length <= 5 ? "name shorter than 6 letters":"name is longer than 5 letters"
+corrina //I've already made a 'let' for corrinas name and declared who she was in the array so i don't need to do it again (even i've already done it 2x but didn't know that javascript had such a good memory! I will remember it from now on :)  )
+let answer = corrina.name.length <= 5 ? "name shorter than 6 letters":"name is longer than 5 letters" //I asked is corrinas name length shorter less than 5 (or is) letters?
+//After the question mark basically means 'if' and after the ':' basically means else
 console.log(answer)
 
